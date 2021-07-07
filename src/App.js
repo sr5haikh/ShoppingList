@@ -6,7 +6,6 @@ import { AddUser } from "./components/AddUser";
 export default function App() {
   return (
     <div className="App">
-      <h1>Personal Shopping List</h1>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />

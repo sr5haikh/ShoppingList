@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
+import { Heading } from "./Heading";
+import { Navigation } from "./Navigation";
+import { UserList } from "./UserList";
+import "./style.css";
 
 export const Home = () => {
-  return(
+  return (
     <div>
-      <h1>Home</h1>
-     </div> 
-  )
-}
+      <Heading />
+      <Navigation />
+      <UserList />
+    </div>
+  );
+};
